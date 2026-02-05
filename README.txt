@@ -1,8 +1,8 @@
-# README
+README
 - Auteur du projet : - Abdarare HÉRARD
 - Date : 10 janvier 2026
 
-### STRUCTURE DU PROJET :
+STRUCTURE DU PROJET :
 - ┌── Data
 -       ├── customers.csv                                                  (données clients)
 -       ├── products.csv                                                   (catalogue produits)
@@ -25,12 +25,12 @@
 - ├── README.md
 - └── Rapport.pdf  
 
-### ORDRE D'EXÉCUTION :
+ORDRE D'EXÉCUTION :
     - 1. Étape 1 et 2 : Comprendre les données brutes, identifier les problèmes et nettoyer les données (types, NaN, anomalies)
     - 2. Étape 3 : Calculer les KPI (CA, panier moyen, taux de retour, etc.)
     - 3. Étape 4 : Enrichir avec jointures et analyser par segment/catégorie
    
-### FICHIERS GÉNÉRÉS :
+FICHIERS GÉNÉRÉS :
    • order_lines_clean.csv : données nettoyées
    • products_clean.csv 
    • customers_clean.csv 
