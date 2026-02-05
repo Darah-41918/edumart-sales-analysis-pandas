@@ -31,19 +31,19 @@
     - 3. Étape 4 : Enrichir avec jointures et analyser par segment/catégorie
    
 ### FICHIERS GÉNÉRÉS :
-   • order_lines_clean.csv : données nettoyées
-   • products_clean.csv 
-   • customers_clean.csv 
-   • kpi_ca_mensuel.csv : tableaux de bord des indicateurs
-   • orders_enriched.csv : table finale enrichie
-   • pivot_segment_category.csv : analyses croisées
+-   • order_lines_clean.csv : données nettoyées
+-   • products_clean.csv 
+-   • customers_clean.csv 
+-   • kpi_ca_mensuel.csv : tableaux de bord des indicateurs
+-   • orders_enriched.csv : table finale enrichie
+-   • pivot_segment_category.csv : analyses croisées
    
 ### CONCEPTS PANDAS UTILISÉS :
-   ✓ read_csv, head, info, describe, value_counts
-   ✓ to_datetime, to_numeric, astype
-   ✓ isna, fillna, dropna, duplicated, drop_duplicates
-   ✓ groupby, agg, pivot_table, merge
-   ✓ sort_values, nlargest, to_csv
+-   ✓ read_csv, head, info, describe, value_counts
+-   ✓ to_datetime, to_numeric, astype
+-   ✓ isna, fillna, dropna, duplicated, drop_duplicates
+-   ✓ groupby, agg, pivot_table, merge
+-   ✓ sort_values, nlargest, to_csv
    
 ### CONSEILS :
    - Exécuter les étapes dans l'ordre
