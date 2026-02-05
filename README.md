@@ -27,8 +27,8 @@
 
 ### ORDRE D'EXÉCUTION :
     - 1. Étape 1 et 2 : Comprendre les données brutes, identifier les problèmes et nettoyer les données (types, NaN, anomalies)
-    - 3. Étape 3 : Calculer les KPI (CA, panier moyen, taux de retour, etc.)
-    - 4. Étape 4 : Enrichir avec jointures et analyser par segment/catégorie
+    - 2. Étape 3 : Calculer les KPI (CA, panier moyen, taux de retour, etc.)
+    - 3. Étape 4 : Enrichir avec jointures et analyser par segment/catégorie
    
 ### FICHIERS GÉNÉRÉS :
    • order_lines_clean.csv : données nettoyées
