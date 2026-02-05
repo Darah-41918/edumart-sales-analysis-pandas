@@ -2,27 +2,27 @@
 - Auteur du projet : - Abdarare HÉRARD
 - Date : 10 janvier 2026
 
-### STRUCTURE DU PROJET :"
+### STRUCTURE DU PROJET :
 - ┌── Data
 -       ├── customers.csv                                                  (données clients)
 -       ├── products.csv                                                   (catalogue produits)
--       └── order_lines.csv                                                (lignes de commande)
+-       ├── order_lines.csv                                                (lignes de commande)
 - ├── Scripts
 -       ├── Chargement, Comprehension et nettoyage des donnees.ipynb       (inspection, nettoyage et préparation des données)
 -       ├── ICP (Indicateur Clé de Performance).ipynb                      (calcul des indicateurs)
 -       ├── Jointures (Merge) pour enrichir les ventes.ipynb               (enrichissement et analyse)
--       └── Main.ipynb                                                     (ce fichier)
+-       └── Main.ipnyb                                                     (centre de controle)
 - ├── Livrables
 -       ├── Données_nettoyées
--               ├── order_lines_clean.csv                                    (lignes de commandes nettoyées)
--               ├── products_clean.csv                                       (catalogue produits nettoyé)
--               └── customers_clean.csv                                      (données clients nettoyées)
+-               ├── order_lines_clean.csv                                  (lignes de commandes nettoyées)
+-               ├── products_clean_csv                                     (catalogue produits nettoyés)
+-               └── customers_clean.csv                                    (données clients nettoyées)
 -       ├── KPI_calculés
--               └── kpi_ca_mensuel.csv                                       (chiffres d'affaires mensuels)
--       └── Jointure_et_pivot table\n",
--               ├── orders_enriched.csv                                      (données jointes et colonnes calculées ajoutées)
--               └── pivot_segment_category.csv                               (tableau pivot des chiffres d'affaires par segment et catégorie)
-- ├── README.txt
+-               └── kpi_ca_mensuel.csv                                     (chiffres d'affaires mensuels)
+-       └── Jointure_et_pivot table
+-               ├── orders_enriched.csv                                    (données jointes et colonnes calculées ajoutées)
+-               └── pivot_segent_category.csv                              (tableau pivot des chiffres d'affaires par segment et catégorie)
+- ├── README.md
 - └── Rapport.pdf  
 
 ### ORDRE D'EXÉCUTION :
